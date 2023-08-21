@@ -1,0 +1,12 @@
+.App {
+  box-sizing: border-box;
+  height: 100vh;
+  display: grid;
+  background-color: rgba(196, 234, 255, 0.03);
+  grid-template-areas: 'a a a'
+                       'b c c'
+                       'b c c';
+  grid-template-rows: 60px auto;
+  grid-template-columns: 60px auto;
+}
+

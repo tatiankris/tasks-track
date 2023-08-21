@@ -1,0 +1,21 @@
+.loaderBox {
+  grid-area: c;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPage {
+  grid-area: c;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  align-items: initial;
+  justify-content: flex-start;
+  align-content: baseline;
+  padding: 10px;
+}
