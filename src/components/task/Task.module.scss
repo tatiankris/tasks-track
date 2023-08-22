@@ -71,3 +71,10 @@
     outline: 1px solid #5ec4f3;
   }
 }
+
+@media screen and (max-width: 532px) {
+  .task {
+    max-width: 85%;
+    min-width: 85%
+  }
+}
